@@ -1,0 +1,39 @@
+contains method:
+ArrayList: 1000 elements = 0 msecond. 100000 elements = 2-3 msecond. 
+
+LinkedList: 1000 elements = 1 msecond. 100000 elements = 2 msecond.
+
+getFirst method:
+ArrayList: 1000 elements = 9 msecond. 
+
+LinkedList: 1000 elements = 8-12 msecond.
+
+removeLast:
+ArrayList: 100000 elements = 9 msecond.
+
+LinkedList: 100000 elements = 9 msecond.
+
+remove(0):
+ArrayList: 10mil elements = 11 msecond.
+
+LinkedList: 10mil elements = 8 msecond.
+
+getIndex:
+ArrayList: 1bil elements = java heap space error. 100mil elements = 7 msecond.
+
+LinkedList: 1bil elements = ??? (too long). 100mil elements = too long.
+
+Contains:
+HashSet: 10k elements = 0 msecond.
+
+TreeSet: 10k elements = 1 msecond.
+
+add:
+HashSet: 10k elements = 0 msecond. 100k = 0 msec. 10mil = 
+
+TreeSet: 10k elements = 1 msecond. 100k = 0 msec. 10mil = 
+
+remove:
+HashSet: 10k elements = 
+
+TreeSet: 10k elements = 
